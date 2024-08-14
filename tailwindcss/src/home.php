@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -6,7 +10,7 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <iframe src="headerMenu.html" width="100%" style="border:none;"></iframe>
+  <object type="text/html" data="headerMenu.html" width="100%"></object>
 
   <div class="inset-x-0 bottom-0 pb-2 sm:pb-5 z-50 mt-0">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

@@ -1,12 +1,15 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-  <iframe src="headerMenu.html" width="100%" style="height: 85px;"></iframe>
+<?php
+
+/*if ($test || $rid == 1168) {
+  $test = true;
+  //require_once($_SERVER['DOCUMENT_ROOT'] . '/lib/stripe-test-config.php');
+}// else require_once($_SERVER['DOCUMENT_ROOT'] . '/lib/stripe-config.php');
+
+$header_setting['no_nav']=true;
+require($_SERVER['DOCUMENT_ROOT'].'/mod/header.php');*/
+
+?>
+   <link href="./output.css" rel="stylesheet">
   <div class="bg-gray-100">
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-4">TERMS OF SERVICE</h1>
@@ -135,8 +138,8 @@
         <p class="mb-4 text-lg">
           7.2 Governing Law: These agreements will be governed by and construed in accordance with the laws of Texas without regard to its conflict of laws principles.
         </p>
-
-        <iframe src="footer.html" width="100%" height="100%" style="height: 300px;"></iframe>
-
-</body>
-</html>
+        </div>
+    </div>  
+<?
+  //php include($_SERVER['DOCUMENT_ROOT'] . '/mod/footer.php') 
+?> 
